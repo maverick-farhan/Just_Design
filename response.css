@@ -1,0 +1,54 @@
+/*Responsive Design*/
+
+@media(max-width: 820px)
+{
+	header nav ul{
+		width: 500px;
+	}
+
+	header nav ul li{
+		font-size: 19px;
+	}
+
+	header h1.logo{
+		font-size: 30px;
+	}
+
+	main{
+		height: 100%;
+		width: 100%;
+	}
+
+	main div.headings h1{
+		font-size: 40px;
+	}
+
+	main div.headings h4{
+		font-size: 23px;
+	}
+	
+	div.headings h1::after{
+	position: absolute;
+	content: '';
+	width: 100px;
+	bottom: 30px;
+	left: 28%;
+	background-color: red;
+	height: 3px;
+	}
+
+
+	div.wrapper .upper{
+	width: 100%;
+	align-items: center;
+	justify-content: space-evenly;
+	flex-wrap: wrap;
+	display: flex;
+		}
+
+		div.upper .planning-wrapper{
+			
+		}
+}
+
+
